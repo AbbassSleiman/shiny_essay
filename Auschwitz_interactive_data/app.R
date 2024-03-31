@@ -4,6 +4,7 @@ library(dplyr)
 library(here)
 library(readr)
 library(DT)
+library(rsconnect)
 
 Auschwitz_data <- read_csv(here("data/analysis_data/cleaned_Auschwitz_data.csv"))
 

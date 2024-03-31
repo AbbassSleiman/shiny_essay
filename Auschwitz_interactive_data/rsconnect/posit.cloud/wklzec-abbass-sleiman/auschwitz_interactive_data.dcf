@@ -1,0 +1,12 @@
+name: auschwitz_interactive_data
+title: Auschwitz_interactive_data
+username: wklzec-abbass-sleiman
+account: wklzec-abbass-sleiman
+server: posit.cloud
+hostUrl: https://api.posit.cloud/v1
+appId: 7907335
+bundleId: 8438646
+url: https://posit.cloud/content/7907335
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

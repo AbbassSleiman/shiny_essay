@@ -1,0 +1,12 @@
+name: Auschwitz_interactive_data
+title: Auschwitz_interactive_data
+username: wklzec-abbass-sleiman
+account: wklzec-abbass-sleiman
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11628570
+bundleId: 8438624
+url: https://wklzec-abbass-sleiman.shinyapps.io/Auschwitz_interactive_data/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
