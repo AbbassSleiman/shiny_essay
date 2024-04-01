@@ -23,8 +23,11 @@ Utilizing data from the United States Holocaust Memorial Museum [@citeAuschwitzD
 
 Drawing upon Bouie's insights [@citeNYTimes], I approached my analysis with a deep sense of respect and responsibility, recognizing the complex historical and cultural dimensions present in the data. By acknowledging the complexities and sensitivities inherent in working with Holocaust data, my analysis aimed to uphold the dignity and memory of the victims. Hence, as part of the ethical considerations I made when making use of this data, in line with the themes brought up by Bouie, I made the decision to avoid omitting data, even if certain entries were missing or had placeholder values. This approach was twofold: it aimed to honor the memory of each individual, acknowledging the tragic fate they endured, as well as highlighting the grim reality faced by many who were not deemed worthy of proper documentation, in turn amplifying their voices and stories in our collective narrative.
 
-Moreover, as part of 
+Moreover, following ethical considerations, I ensured the incorporation of all available information within the dataset. This encompassed details such as names, birthplaces, residences, dates of birth and death, and religious affiliations. This approach stemmed from my commitment to honoring the individual narratives behind each data point. By embracing this methodology, my aim was to uphold the dignity of the victims and acknowledge the significance of their identities within the historical context of the Holocaust.
 
+# Concluding Remarks
+
+As we navigate the delicate landscape of data analysis and ethical considerations, it becomes increasingly evident that every data point represents more than just a number. By delving into the narratives of the Auschwitz victims with sensitivity and respect, we not only shed light on the human stories behind the statistics but also honor the memory of those who suffered unimaginable atrocities. This methodology centered around the thoughtful consideration of ethical principles and a commitment to inclusivity in data representation is one that every statistician and data scientist should aim to uphold. Each statistic and every number tells a story, reminding us of the human lives and experiences embedded within the data, waiting to be heard, understood, and remembered.
 
 \newpage
 
