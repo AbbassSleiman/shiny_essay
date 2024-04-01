@@ -6,9 +6,7 @@ library(readr)
 library(DT)
 library(rsconnect)
 
-setwd("/Users/abbasssleiman/shiny_essay")
-
-Auschwitz_data <- read_csv("Auschwitz_interactive_data/cleaned_Auschwitz_data.csv")
+Auschwitz_data <- read_csv(here("Auschwitz_interactive_data/cleaned_Auschwitz_data.csv"))
 
 # UI
 ui <- fluidPage(
@@ -86,8 +84,6 @@ server <- function(input, output) {
     datatable(data)
   })
 }
-
-
 
 # Run the application
 shinyApp(ui = ui, server = server)
