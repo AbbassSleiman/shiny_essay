@@ -1,12 +1,11 @@
 library(shiny)
 library(ggplot2)
 library(dplyr)
-library(here)
 library(readr)
 library(DT)
 library(rsconnect)
 
-Auschwitz_data <- read_csv("cleaned_Auschwitz_data.csv")
+Auschwitz_data <- read_csv("cleaned_Auschwitz_data_new.csv")
 
 # UI
 ui <- fluidPage(

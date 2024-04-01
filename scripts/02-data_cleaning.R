@@ -16,9 +16,8 @@ raw_data <- read_csv(here("data/raw_data/Auschwitz_data.csv"))
 cleaned_data <- raw_data |>
   janitor::clean_names() |>
   mutate(date_of_birth = as.Date(date_of_birth)) |>
-  mutate(date_of_death = as.Date(date_of_death)) |>
-  na.omit()
+  mutate(date_of_death = as.Date(date_of_death))
 
 #### Save Data ####
-write_csv(cleaned_data, "Auschwitz_interactive_data/cleaned_Auschwitz_data.csv")
+write_csv(cleaned_data, "cleaned_Auschwitz_data_new.csv")
 

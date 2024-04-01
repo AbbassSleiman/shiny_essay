@@ -5,8 +5,9 @@ account: wklzec-abbass-sleiman
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 11628570
-bundleId: 8442260
+bundleId: 8442561
 url: https://wklzec-abbass-sleiman.shinyapps.io/Auschwitz_interactive_data/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: cleaned_Auschwitz_data.csv|data/raw_data/Auschwitz_data.csv|paper/paper.pdf|paper/paper.qmd|paper/references.bib|scripts/02-data_cleaning.R
