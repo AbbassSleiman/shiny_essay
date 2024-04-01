@@ -8,7 +8,7 @@ library(rsconnect)
 
 setwd("/Users/abbasssleiman/shiny_essay")
 
-Auschwitz_data <- read_csv("data/analysis_data/cleaned_Auschwitz_data.csv")
+Auschwitz_data <- read_csv("Auschwitz_interactive_data/cleaned_Auschwitz_data.csv")
 
 # UI
 ui <- fluidPage(
@@ -67,18 +67,18 @@ server <- function(input, output) {
     # Filter data based on selected category
     if (input$categories == "Religion") {
       # Count the number of victims for each religion
-      data <- Auschwitz_data %>%
-        group_by(religion) %>%
+      data <- Auschwitz_data |>
+        group_by(religion) |>
         summarize(Count = n())
     } else if (input$categories == "Birthplace") {
       # Count the number of victims for each birthplace
-      data <- Auschwitz_data %>%
-        group_by(birthplace) %>%
+      data <- Auschwitz_data |>
+        group_by(birthplace) |>
         summarize(Count = n())
     } else if (input$categories == "Residence") {
       # Count the number of victims for each residence
-      data <- Auschwitz_data %>%
-        group_by(residence) %>%
+      data <- Auschwitz_data |>
+        group_by(residence) |>
         summarize(Count = n())
     }
     
