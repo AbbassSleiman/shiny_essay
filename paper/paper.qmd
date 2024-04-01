@@ -13,13 +13,18 @@ bibliography: references.bib
 
 # Introduction
 
-"A single death is a tragedy; a million deaths is a statistic". This quote, generally attributed to Joseph Stalin, highlights an important, and often neglected, aspect of data analysis and statistics as a whole. When dealing with large bouts of data, it is easy to forget the underlying meaning of each data point. When discussing the implications of economic policies on unemployment rates or homelessness, what a statistician may see as a simple change of a few percentage points is in reality the profound disruption of countless families and individuals, thrust into hardship and uncertainty. When seeking to evaluate wars or conflicts, what may simply appear as numbers on both sides is in reality the deaths of countless individuals and the destruction of homes and livelihoods.
+"A single death is a tragedy; a million deaths is a statistic". This quote, generally attributed to Joseph Stalin [@citequote], highlights an important, and often neglected, aspect of data analysis and statistics as a whole. When dealing with large bouts of data, it is easy to forget the underlying meaning of each data point. When discussing the implications of economic policies on unemployment rates or homelessness, what a statistician may see as a simple change of a few percentage points is in reality the profound disruption of countless families and individuals, thrust into hardship and uncertainty. When seeking to evaluate wars or conflicts, what may simply appear as numbers on both sides is in reality the deaths of countless individuals and the destruction of homes and livelihoods.
 
 # Ethical Considerations in Data Analysis
 
 As individuals looking to understand the world with data, it is our responsibility not only to conduct sound statistical analyses, but to make the appropriate ethical considerations necessary when deciding how to use this data. Dropping a data point for the sake of a statistical argument is in reality omitting someone's story, a story that, depending on the context of the study, can be harsh or heartbreaking. Each decision made when conducting analysis on data should be thoughtfully evaluated. It is not enough to make statistical decisions in the pursuit arbitrary measures of statistical power, but instead each decision should be made with the aim of authentically capturing the human narratives hidden within the data.
 
-Utilizing data from the United States Holocaust Memorial Museum [@citeAsuchwitzData], I worked to create a shiny web app providing an interactive graph and table to allow individuals to see firsthand
+Utilizing data from the United States Holocaust Memorial Museum [@citeAuschwitzData], I worked to create a shiny web app providing an interactive graph and table to allow individuals to see the victims of Auschwitz by religion, birthplace, and residence. This analysis was done through R [@citeR], along with the aid of the following packages: tidyverse [@citetidyverse], shiny [@citeshiny], ggplot2 [@citeggplot2], dplyr [@citedplyr], readr [@citereadr], DT [@citeDT], and rsconnect [@citersconnect]. 
+
+Drawing upon Bouie's insights [@citeNYTimes], I approached my analysis with a deep sense of respect and responsibility, recognizing the complex historical and cultural dimensions present in the data. By acknowledging the complexities and sensitivities inherent in working with Holocaust data, my analysis aimed to uphold the dignity and memory of the victims. Hence, as part of the ethical considerations I made when making use of this data, in line with the themes brought up by Bouie, I made the decision to avoid omitting data, even if certain entries were missing or had placeholder values. This approach was twofold: it aimed to honor the memory of each individual, acknowledging the tragic fate they endured, as well as highlighting the grim reality faced by many who were not deemed worthy of proper documentation, in turn amplifying their voices and stories in our collective narrative.
+
+Moreover, as part of 
+
 
 \newpage
 

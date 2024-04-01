@@ -8,7 +8,6 @@
 
 #### Workspace setup ####
 library(tidyverse)
-library(here)
 
 #### Clean data ####
 raw_data <- read_csv(here("data/raw_data/Auschwitz_data.csv"))

@@ -63,10 +63,9 @@ server <- function(input, output) {
     
     # Filter data based on selected category
     if (input$categories == "Religion") {
-      # Count the number of victims for each religion
-      data <- Auschwitz_data |>
-        group_by(religion) |>
-        summarize(Count = n())
+      # Filter data based on selected religions
+      data <- Auschwitz_data %>%
+        filter(religion %in% input$ChosenReligions)
     } else if (input$categories == "Birthplace") {
       # Count the number of victims for each birthplace
       data <- Auschwitz_data |>
