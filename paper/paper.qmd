@@ -3,7 +3,7 @@ title: "Beyond Numbers: The Ethical Implications of Quantifying Human Tragedy"
 subtitle: "Ethical considerations in the analysis of Auschwitz victim data"
 author: 
   - Abbass Sleiman
-thanks: "Code and data are available at: https://github.com/AbbassSleiman/shiny_essay"
+thanks: "Code and data are available at: https://github.com/AbbassSleiman/shiny_essay. The shiny web app can be accessed at: https://wklzec-abbass-sleiman.shinyapps.io/Auschwitz_interactive_data/"
 date: today
 date-format: long
 format: pdf
