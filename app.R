@@ -6,7 +6,7 @@ library(readr)
 library(DT)
 library(rsconnect)
 
-Auschwitz_data <- read_csv(here("Auschwitz_interactive_data/cleaned_Auschwitz_data.csv"))
+Auschwitz_data <- read_csv("cleaned_Auschwitz_data.csv")
 
 # UI
 ui <- fluidPage(
