@@ -20,5 +20,5 @@ cleaned_data <- raw_data |>
   na.omit()
 
 #### Save Data ####
-write_csv(cleaned_data, "data/analysis_data/cleaned_Auschwitz_data.csv")
+write_csv(cleaned_data, "Auschwitz_interactive_data/cleaned_Auschwitz_data.csv")
 
